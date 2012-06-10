@@ -11,5 +11,8 @@ module FakeWeb
     def readuntil(*args)
     end
 
+    def read_timeout=(*args)
+    end
+
   end
 end
